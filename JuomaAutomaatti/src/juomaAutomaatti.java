@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Hyv√§!
 public class juomaAutomaatti {
 
 	private int tee;
@@ -46,12 +46,12 @@ public class juomaAutomaatti {
 		System.out.println("Odota hetki, Kahvisi valmistuu. ");
 		if (this.kahvi -10 < 0) {
 			this.kahvi = 0; 
-			System.out.println("Kahvia ei ole en‰‰ j‰ljell‰! T‰yt‰ s‰iliˆ.");
+			System.out.println("Kahvia ei ole en√§√§ j√§ljell√§! T√§yt√§ s√§ili√∂.");
 		}
 
 		else this.kahvi -= 10;
 
-		System.out.println("Kahvia on j‰ljell‰: " + this.kahvi + " yksikkˆ‰. Teet‰ on j‰ljell‰: " + this.tee + " yksikkˆ‰. Kaakaota on j‰ljell‰: " + this.kaakao + " yksikkˆ‰." +"\n");
+		System.out.println("Kahvia on j√§ljell√§: " + this.kahvi + " yksikk√∂√§. Teet√§ on j√§ljell√§: " + this.tee + " yksikk√∂√§. Kaakaota on j√§ljell√§: " + this.kaakao + " yksikk√∂√§." +"\n");
 	}
 
 	//Teen valmistusmetodi
@@ -59,12 +59,12 @@ public class juomaAutomaatti {
 		System.out.println("Odota hetki, Teesi valmistuu. ");
 		if (this.tee -10 < 0) {
 			this.tee = 0; 
-			System.out.println("Teet‰ ei ole en‰‰ j‰ljell‰! T‰yt‰ s‰iliˆ.");
+			System.out.println("Teet√§ ei ole en√§√§ j√§ljell√§! T√§yt√§ s√§ili√∂.");
 		}
 
 		else this.tee -= 10;
 
-		System.out.println("Kahvia on j‰ljell‰: " + this.kahvi + " yksikkˆ‰. Teet‰ on j‰ljell‰: " + this.tee + " yksikkˆ‰. Kaakaota on j‰ljell‰: " + this.kaakao + " yksikkˆ‰." +"\n");
+		System.out.println("Kahvia on j√§ljell√§: " + this.kahvi + " yksikk√∂√§. Teet√§ on j√§ljell√§: " + this.tee + " yksikk√∂√§. Kaakaota on j√§ljell√§: " + this.kaakao + " yksikk√∂√§." +"\n");
 
 	}
 
@@ -73,12 +73,12 @@ public class juomaAutomaatti {
 		System.out.println("Odota hetki, Kaakaosi valmistuu. ");
 		if (this.kaakao -10 < 0) {
 			this.kaakao = 0; 
-			System.out.println("Kaakaota ei ole en‰‰ j‰ljell‰! T‰yt‰ s‰iliˆ.");
+			System.out.println("Kaakaota ei ole en√§√§ j√§ljell√§! T√§yt√§ s√§ili√∂.");
 		}
 
 		else this.kaakao -= 10;
 
-		System.out.println("Kahvia on j‰ljell‰: " + this.kahvi + " yksikkˆ‰. Teet‰ on j‰ljell‰: " + this.tee + " yksikkˆ‰. Kaakaota on j‰ljell‰: " + this.kaakao + " yksikkˆ‰." +"\n");
+		System.out.println("Kahvia on j√§ljell√§: " + this.kahvi + " yksikk√∂√§. Teet√§ on j√§ljell√§: " + this.tee + " yksikk√∂√§. Kaakaota on j√§ljell√§: " + this.kaakao + " yksikk√∂√§." +"\n");
 	}
 
 
@@ -122,12 +122,12 @@ public class juomaAutomaatti {
 
 			System.out.println("******************************");
 			System.out.println("Jatka tilaamista");
-			System.out.println("Kirjoita: Kyll‰");
+			System.out.println("Kirjoita: Kyll√§");
 			System.out.println("Kirjoita: Ei");
 			vastaus = lukija.next();
 
 
 		}
-		while (vastaus.equalsIgnoreCase("Kyll‰"));
+		while (vastaus.equalsIgnoreCase("Kyll√§"));
 	}
 }
